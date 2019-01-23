@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class SearchproteinConfig(AppConfig):
+class SearchProteinConfig(AppConfig):
     name = 'searchProtein'
