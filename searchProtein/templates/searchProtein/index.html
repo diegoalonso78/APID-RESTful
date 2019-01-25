@@ -1,0 +1,9 @@
+{% if interactions %}
+    <ul>
+    {% for i in interactions %}
+        <li><a href="/searchProtein/{{ i.id }}/">{{ i.participant1_uniprot_name }} - {{ i.participant2_uniprot_name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No interactions are available.</p>
+{% endif %}
