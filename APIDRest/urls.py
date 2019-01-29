@@ -20,5 +20,6 @@ urlpatterns = [
     path('searchProtein/', include('searchProtein.urls')),
     path('protein/', include('protein.urls')),
     path('interactions/', include('interactions.urls')),
+    path('publication/', include('publication.urls')),
     path('admin/', admin.site.urls),
 ]
