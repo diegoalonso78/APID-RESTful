@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'searchProtein.apps.SearchProteinConfig',
     'protein.apps.ProteinConfig',
+    'interactions.apps.InteractionsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
