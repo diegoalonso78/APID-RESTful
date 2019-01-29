@@ -1,4 +1,4 @@
-Protein
+<h1>Protein<h1>
      - id, name, gen -> 0 o mas proteinas -> json 6 campos
 
 Interaction
