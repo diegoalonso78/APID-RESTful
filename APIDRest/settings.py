@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'protein.apps.ProteinConfig',
     'interactions.apps.InteractionsConfig',
     'publication.apps.PublicationConfig',
+    'curationevents.apps.CurationeventsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
